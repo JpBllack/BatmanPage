@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
-}
+} /*Zerando o css padrão do navegador*/
 
 
 header {
@@ -12,7 +12,9 @@ header {
     height: 50px;
     background-image: url(../media/blood.png);
     background-size: cover;
+    /* colando o width 100% para preencher toda a tela e com o height em 50px que é a altura do bloco da header, sendo o a header esta com um background color preta e com a cores da fontes em branco. e foi adicionado um background imagem para fazer o sangue na header utilizando o background cover para cobrir toda a header */
 }
+
 
 
 
@@ -21,7 +23,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: 10%;  
-    
+
+    /* No body foi adiciona apenas propiedades backgrounds comçando com o image que foi adicionado o background da pagina e depois um no repeat para não repitir a imagem e um cover para cobrir toda a pagina(foi utilizado uma imagem de alta qualidade para não ficar feia em telas maiores) e depois um background position em 10 que fez a iamgem ir para a esquerda*/
 }
 
 footer {
@@ -33,12 +36,17 @@ footer {
     background-image: url(../media/batman\ facvion.png);
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* no footer doi adicionado uma cor em preto e as fontes em baranco com duas imagem a logo e o sangue para persinalizar a fottter e um no repeat e um contain que fez as iamgens se comportar apenas no footter e um displays flex, soace between e alaing enter para a modificação do texto que foi escrito no footer  */
 }
 
-p
-{
-    text-align: right;
-    bottom: 10px;
+p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: auto;
 }
 
 
