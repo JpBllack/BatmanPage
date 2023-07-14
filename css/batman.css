@@ -182,6 +182,27 @@ li:hover
     background-image: url('https://i.pinimg.com/564x/4d/14/97/4d14972f259b183b5cf2fc6f146761b8.jpg');
 }
 
+.banner-4 
+{
+    background-image: url('https://i.pinimg.com/564x/e6/32/c3/e632c38979429b5ca85ed94bc95fb986.jpg');
+    transition: 2s;
+}
+
+.banner-5
+{
+    background-image: url('https://i.pinimg.com/564x/4f/04/4a/4f044a294f8f81b6018a8725d0eedb44.jpg');
+}
+
+.banner-6
+{
+    background-image: url('https://i.pinimg.com/564x/e4/90/f0/e490f07fb3bcf6cd7e415eac56174f59.jpg');
+}
+
+.banner-4:hover
+{
+    background-image: url('https://i.pinimg.com/564x/5b/2c/76/5b2c76ec087c0ea06b008d546ef47598.jpg');
+    color: black;
+}
 footer
 {
     height: 300px;
@@ -274,3 +295,29 @@ span
     margin-top: 150px;
 }
 }
+
+.elenco
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textoElenco
+{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-top: 50px;
+    padding: 10px ;
+    justify-content: center;
+    display: flex;
+}
+
+.actorCardsContainerPhotos
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 150px;}
