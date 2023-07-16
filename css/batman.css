@@ -411,6 +411,61 @@ span
         font-family: 'Kdam Thmor Pro', sans-serif;
     }
 
+/* pagina de comentarios */
+
+    .textoBatman:hover
+    {
+        transition: 1s;
+        color: #D21617;
+    }
+
+    #comments{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .commentIcon
+    {
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    .icon1
+    {
+        background-image: url('https://i.pinimg.com/736x/eb/e5/51/ebe551fd04f7bc87fd710644a1dbfd83.jpg');
+    }
+
+    .icon2
+    {
+        background-image: url('https://i.imgur.com/54KdCxV.jpg');
+    }
+
+    .icon3
+    {
+        background-image: url('https://i.pinimg.com/736x/56/8f/e8/568fe84466c1995b7954d861892aaca3.jpg');
+    }
+    .icon4
+    {
+        background-image: url('https://i.pinimg.com/originals/05/03/63/0503630ed4a56cf01db43dcc7a368fa8.jpg');
+    }
+
+
+    .commentTxt
+    {
+        color: #fff;
+        font-size: 19px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 10px;
+
+    }
+
+  
 /* .description
 {
     color: #fff;
