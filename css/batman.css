@@ -424,6 +424,8 @@ span
         flex-direction: column;
         justify-content: center;
         justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .commentIcon
@@ -455,17 +457,75 @@ span
 
     .commentTxt
     {
+       display: flex;
+       flex-direction: row;
         color: #fff;
         font-size: 19px;
         font-family: 'Kdam Thmor Pro', sans-serif;
-        width: 70%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding: 10px;
-
+        width: 100%;
+        padding: 30px;
     }
 
-  
+    .txt1
+    {
+        justify-content: center;
+        width: 70%;
+        display: flex;
+    }
+
+    .txt2
+    {
+        
+        width: 70%;
+       
+    }
+
+    .txt3
+    {
+        
+        width: 70%;
+       
+    }
+
+    .txt4
+    {
+        
+        width: 70%;
+       
+    }
+
+    .txtP {
+        margin-left: 10px;
+    }
+
+    #critica
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .TextoIbm
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 90%;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        padding: 30px;
+    }
+
+    #imagem1foto
+    {
+        border-radius: 10%;
+        margin-left: 90px;
+        padding: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+
 /* .description
 {
     color: #fff;
